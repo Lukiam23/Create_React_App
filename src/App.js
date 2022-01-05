@@ -1,17 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
 import HelloWorld from './components/HelloWorld'
+import SayMyName from './components/SayMyName'
+import Card from './components/Card'
 
 function App() {
-  const name = "Matheus"
-
   return (
     <div className="App">
-      <h1>Olá {name}</h1>
-      <HelloWorld />
+      <h1>Olá Matheus</h1>
+      <SayMyName name="Matheus" />
+      <SayMyName name="João" />
 
-      <p>Tudo que eu escrevo aqui se torna realidade</p>
-      <h4>Vou conseguir trabalhar na OSF esse ano, vou passar essa seleção</h4>
+      <Card nome="Pikachu" tipo="Eletrico" preco="2.000" qt="10" />
+      <Card nome="Clafawry" tipo="Fada" preco="3.000" qt="6" />
     </div>
   );
 }
