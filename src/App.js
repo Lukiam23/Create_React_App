@@ -10,9 +10,9 @@ function App() {
       <h1>Olá Matheus</h1>
       <SayMyName name="Matheus" />
       <SayMyName name="João" />
-
-      <Card nome="Pikachu" tipo="Eletrico" preco="2.000" qt="10" />
-      <Card nome="Clafawry" tipo="Fada" preco="3.000" qt="6" />
+      <img src="https://th.bing.com/th/id/R.806f957388526ba1efb25d808aec35d6?rik=Z%2bMMoz0Otx9Y3w&riu=http%3a%2f%2fimages6.fanpop.com%2fimage%2fphotos%2f43200000%2fSitting-Pikachu-pikachu-43222222-120-120.png&ehk=HKnsbFvQ8UIsb4Fm2kBCY9246nryzjtOxvnIYfT2snU%3d&risl=&pid=ImgRaw&r=0" alt=""/>
+      <Card img="https://th.bing.com/th/id/R.806f957388526ba1efb25d808aec35d6?rik=Z%2bMMoz0Otx9Y3w&riu=http%3a%2f%2fimages6.fanpop.com%2fimage%2fphotos%2f43200000%2fSitting-Pikachu-pikachu-43222222-120-120.png&ehk=HKnsbFvQ8UIsb4Fm2kBCY9246nryzjtOxvnIYfT2snU%3d&risl=&pid=ImgRaw&r=0" alt="Pikachu" nome="Pikachu" tipo="Eletrico" preco="2.000" qt="10" />
+    
     </div>
   );
 }

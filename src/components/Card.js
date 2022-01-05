@@ -1,6 +1,8 @@
-function Card({nome, tipo, preco, qt}) {
+import styles from './Card.module.css'
+function Card({nome, tipo, preco, qt, img, alt}) {
 	return (
-		<div>
+		<div className={styles.cardContainers}>
+			<img className={styles.imgCard} src={img} alt={alt} />
 			<h4>{nome}</h4>
 			<h5>Tipo:{tipo}</h5>
 			<h5>Valor: {preco}</h5>

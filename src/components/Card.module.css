@@ -1,0 +1,11 @@
+.cardContainers{
+	background-color: #efefef;
+	padding: 5px;
+	width: 150px;
+	height: 300px;
+}
+
+.imgCard{
+	width: 100px;
+	height: 100px;
+}
