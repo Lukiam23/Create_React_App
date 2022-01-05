@@ -8,6 +8,7 @@ function App() {
   return (
     <div className="App">
       <h1>Olá {name}</h1>
+      <HelloWorld />
 
       <p>Tudo que eu escrevo aqui se torna realidade</p>
       <h4>Vou conseguir trabalhar na OSF esse ano, vou passar essa seleção</h4>
