@@ -2,10 +2,10 @@ import styles from './Header.module.css'
 
 function Header({img,alt}) {
 	return (
-		<header className={styles.headerContainer}>
-			<img src={img} alt={alt} />
+		<div className={styles.headerContainer}>
+			<h1>Rocket<span>Market</span></h1>
 			<input type="text" />
-		</header>
+		</div>
 	);
 }
 

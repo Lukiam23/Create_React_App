@@ -1,15 +1,8 @@
 body {
-  padding: 50px;
+  position: relative; /* se fosse static eu nao poderia usar o top */
+  top: 50px;
   background-color: #dfdfdf;
 }
 
-h1{
-  background-color: #ffffff;
-}
-
-
-p{
-  background-color: #ffffff;
-}
 
 
