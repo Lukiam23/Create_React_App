@@ -3,10 +3,12 @@ import './App.css';
 import HelloWorld from './components/HelloWorld'
 import SayMyName from './components/SayMyName'
 import Card from './components/Card'
+import Header from './components/Header'
 
 function App() {
   return (
     <div className="App">
+      <Header img='images/pokeball.png' alt='pokeball'/>
       <h1>Olá Matheus</h1>
       <SayMyName name="Matheus" />
       <SayMyName name="João" />

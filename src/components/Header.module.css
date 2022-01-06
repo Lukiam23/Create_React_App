@@ -1,0 +1,17 @@
+.headerContainer{
+	top: 0;
+	background-color: #ffffff;
+
+}
+
+.headerContainer img{
+	left: 0;
+	width: 20px;
+	height: 20px;
+}
+
+.headerContainer input{
+	right: 0;
+	width: 100px;
+	height: 20px;
+}
